@@ -1,0 +1,105 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "telemetry.telemetryLevel": "off",
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "prettier.printWidth": 100000,
+    "prettier.endOfLine": "auto",
+    "prettier.proseWrap": "never",
+    "prettier.quoteProps": "preserve",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "c": true,
+        "php": true
+    },
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
+    "[dart]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "clangd.path": "c:\\Users\\Nono\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\14.0.3\\clangd_14.0.3\\bin\\clangd.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "remote.SSH.remotePlatform": {
+        "nonopi.local": "linux"
+    },
+    "git.ignoreRebaseWarning": true,
+    "terminal.integrated.fontFamily": "FiraCode NF",
+    "dart.openDevTools": "flutter",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.lint.invalidApply": "ignore",
+    "tailwindCSS.includeLanguages": {
+        "typescriptreact": "javascript"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "codeium.enableConfig": {
+        "*": false,
+        "blade": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true
+    },
+    "workbench.colorTheme": "Hyper Term Black",
+    "explorer.confirmDragAndDrop": false,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "arduino.useArduinoCli": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "liveshare.notebooks.allowGuestExecuteCells": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "mocha.files.glob": "tests/**/*.test.ts",
+    "mocha.requires": [
+        "ts-node/register"
+    ],
+    "testExplorer.useNativeTesting": true,
+    "mochaExplorer.fullTrace": true,
+}
